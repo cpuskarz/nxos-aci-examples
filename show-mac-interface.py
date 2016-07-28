@@ -4,8 +4,8 @@ import json
 """
 Modify these please
 """
-url='http://IP_ADDREESS/ins'
-switchuser='user_id'
+url='http://ip_address/ins'
+switchuser='userId'
 switchpassword='password'
 
 def getip():

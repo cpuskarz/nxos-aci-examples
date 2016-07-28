@@ -20,6 +20,7 @@ If you run into authentication challenges, check out this link: <http://superuse
   
 ####SCRIPT show-mac-interface.py
 
+Update the python script with your creditials.  
 Enter and IP Address and output will return : MAC address and interface from which the MAC was learned. Helps in quick troublshooting.  
 
 ##Postman for ACI  
