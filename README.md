@@ -10,7 +10,7 @@ Here's what's happening:
 1) The running config is copied to bootflash as running.latest.  
 2) Guestshell is kicked off with a python script.  
 3) We update a counter for reference later.  
-4) We move 'config.latest' to a directory on our local git server (running as git bare server on the N9k).
+4) We move 'config.latest' to a directory on our local git server (running as git bare server on the N9k).  
 5) We then do a push onto our internal gitlist server.  
 
 Here's a link to setting up a git bare server: <https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server> 
