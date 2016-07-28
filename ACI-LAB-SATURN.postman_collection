@@ -36,12 +36,12 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1469722579816,
+			"time": 1469736249840,
 			"name": "Create Web Filter",
 			"description": "",
 			"collectionId": "7c25b9dc-26af-ac54-0ebc-ec31e71bf094",
 			"responses": [],
-			"rawModeData": "<vzFilter name='Web_Filter' status='created'>\n  <vzEntry name='Web_Filter' etherT='ip' prot='tcp' sFromPort='http' sToPort='http' status='created' />\n</vzFilter>\n"
+			"rawModeData": "<vzFilter name='Web_Filter' status='created'>\n  <vzEntry name='Web_Filter' etherT='ip' prot='tcp' sFromPort='{{WebPort}}' sToPort='{{WebPort}}' status='created' />\n</vzFilter>\n"
 		},
 		{
 			"id": "1e542d82-2234-f6dd-8a5e-6c4e039565d2",
@@ -173,12 +173,12 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1469722596792,
+			"time": 1469736306929,
 			"name": "Create DB Filter",
 			"description": "",
 			"collectionId": "7c25b9dc-26af-ac54-0ebc-ec31e71bf094",
 			"responses": [],
-			"rawModeData": "<vzFilter name='DB_Filter' status='created'>\n  <vzEntry name='DB_Filter' etherT='ip' prot='tcp' sFromPort='1524' sToPort='1524' status='created' />\n</vzFilter>\n"
+			"rawModeData": "<vzFilter name='DB_Filter' status='created'>\n  <vzEntry name='DB_Filter' etherT='ip' prot='tcp' sFromPort='{{DbPort}}' sToPort='{{DbPort}}' status='created' />\n</vzFilter>\n"
 		},
 		{
 			"id": "81286041-4a02-0609-feeb-66ab4c558efb",
@@ -233,12 +233,12 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1469722546982,
+			"time": 1469745419747,
 			"name": "APIC Login",
 			"description": "admin login",
 			"collectionId": "7c25b9dc-26af-ac54-0ebc-ec31e71bf094",
 			"responses": [],
-			"rawModeData": "<aaaUser name=\"admin\" pwd=\"A!min567\" />"
+			"rawModeData": "<aaaUser name=\"{{username}}\" pwd=\"{{passwrd}}\" />"
 		},
 		{
 			"id": "e96577bf-207a-79fd-9b2c-b373825da8dd",
@@ -253,12 +253,12 @@
 			"tests": "",
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"time": 1469722586638,
+			"time": 1469736279148,
 			"name": "Create App Filter",
 			"description": "",
 			"collectionId": "7c25b9dc-26af-ac54-0ebc-ec31e71bf094",
 			"responses": [],
-			"rawModeData": "<vzFilter name='App_Filter' status='created'>\n  <vzEntry name='App_Filter' etherT='ip' prot='tcp' sFromPort='1433' sToPort='1433' status='created' />\n</vzFilter>\n"
+			"rawModeData": "<vzFilter name='App_Filter' status='created'>\n  <vzEntry name='App_Filter' etherT='ip' prot='tcp' sFromPort='{{AppPort}}' sToPort='{{AppPort}}' status='created' />\n</vzFilter>\n"
 		},
 		{
 			"id": "fded0ec1-62ca-b2db-d747-1bb6e76e8ce3",
