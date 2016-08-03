@@ -1,8 +1,7 @@
 # nxos
 ####SCRIPT: autoconfig.py 
 
-Script is an enhancement to the GIT/EEM example in Cisco NXOS Programmability and Automation book.
-<http://www.cisco.com/c/dam/en/us/td/docs/switches/datacenter/nexus9000/sw/open_nxos/programmability/guide/Programmability_Open_NX-OS.pdf>.  
+Script is an enhancement to the GIT/EEM example in Cisco [NXOS Programmability and Automation book.](http://www.cisco.com/c/dam/en/us/td/docs/switches/datacenter/nexus9000/sw/open_nxos/programmability/guide/Programmability_Open_NX-OS.pdf)  
 
 Script runs in N9k guestshell, triggered by an EEM applet running on Nexus 9k. I've included the EEM config: 'eem-config.txt'.
 
@@ -13,12 +12,12 @@ Here's what's happening:
 4) We move 'config.latest' to a directory on our local git server (running as git bare server on the N9k).  
 5) We then do a push onto our internal gitlist server.  
 
-Here's a link to setting up a git bare server: <https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server> 
+Here's a link to setting up a [git bare server.](https://git-scm.com/book/en/v2/Git-on-the-Server-Setting-Up-the-Server)
 
-There are a few free git repository viewers such as GitLab or GitList. I used GitList. Documentation link: <https://github.com/klaussilveira/gitlist/blob/master/INSTALL.md>
+There are a few free git repository viewers such as GitLab or GitList. I used GitList. [Documentation link is here.](https://github.com/klaussilveira/gitlist/blob/master/INSTALL.md)
 
 
-If you run into authentication challenges, check out this link: <http://superuser.com/questions/338511/how-do-i-disable-password-prompts-when-doing-git-push-pull>  
+If you run into authentication challenges, check out this [link.](http://superuser.com/questions/338511/how-do-i-disable-password-prompts-when-doing-git-push-pull)  
   
 ####SCRIPT show-mac-interface.py
 
